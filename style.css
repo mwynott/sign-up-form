@@ -5,6 +5,19 @@
     font-style: normal;
 }
 
+a:link {
+    color: #3814db;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #ec10e1;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 *:not(dialog) {
   margin: 0;
 }
