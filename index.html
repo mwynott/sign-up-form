@@ -29,12 +29,12 @@
                 <p>Let's do this!</p>
             </div>
             <form id="sign-up">
-                <input type="text" name="first_name" placeholder="First Name">
-                <input type="text" name="last_name" placeholder="Last Name">
-                <input type="email" name="email" placeholder="Email">
-                <input type="number" name="phone" placeholder="Phone Number">
-                <input type="password" name="password" placeholder="Password">
-                <input type="password" name="confirm-password" placeholder="Confirm Password">
+                <input type="text" name="first_name" placeholder="First Name" required>
+                <input type="text" name="last_name" placeholder="Last Name" required>
+                <input type="email" name="email" placeholder="Email" required>
+                <input type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" title="Format: 123-456-7890" name="phone" placeholder="Phone Number">
+                <input type="password" name="password" placeholder="Password" required>
+                <input type="password" name="confirm-password" placeholder="Confirm Password" required>
             </form>
         </div>
         <div class="bottom-right">
